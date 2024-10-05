@@ -1,0 +1,84 @@
+/* src/components/HeroSection.css */
+
+.hero-section {
+  background-color: var(--background-color);
+  padding: 80px 20px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.hero-title {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: var(--text-color);
+}
+
+.hero-cta-button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--black-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-cta-button:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(1.05);
+}
+
+.hero-image {
+  margin-top: 40px;
+}
+
+.hero-support-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-benefit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-benefit-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.hero-benefit-text {
+  font-size: 1rem;
+  text-align: left;
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 10px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-cta-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+  }
+}

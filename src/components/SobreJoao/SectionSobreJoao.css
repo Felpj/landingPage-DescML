@@ -1,0 +1,43 @@
+/* src/components/SectionSobreJoao.css */
+
+.section-sobre-joao {
+    background-color: var(--background-color);
+    padding: 40px 20px;
+    color: var(--text-color);
+  }
+  
+  .mentor-info {
+    margin-bottom: 40px;
+  }
+  
+  .mentor-avatar {
+    margin-bottom: 20px;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-testimonial-card {
+    background-color: var(--black-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-testimonial-card strong {
+    color: var(--primary-color);
+  }
+  
+  @media (max-width: 768px) {
+    .section-sobre-joao {
+      padding: 20px 10px;
+    }
+  
+    .mentor-avatar {
+      size: 120px;
+    }
+  
+    .mentor-testimonial-card {
+      padding: 15px;
+    }
+  }

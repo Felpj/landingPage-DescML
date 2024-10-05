@@ -1,0 +1,67 @@
+/* src/components/SocialProofSection.css */
+
+.social-proof-section {
+    background-color: var(--background-color);
+    padding: 40px 20px;
+    color: var(--text-color);
+  }
+  
+  .social-proof-title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .social-proof-card {
+    background-color: var(--black-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-proof-avatar {
+    margin-bottom: 20px;
+  }
+  
+  .social-proof-statistic-card {
+    background-color: var(--black-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-proof-logo {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .social-proof-logo:hover {
+    filter: grayscale(0%);
+  }
+  
+  @media (max-width: 768px) {
+    .social-proof-section {
+      padding: 20px 10px;
+    }
+  
+    .social-proof-title {
+      font-size: 1.5rem;
+    }
+  
+    .social-proof-card {
+      padding: 15px;
+    }
+  
+    .social-proof-statistic-card {
+      padding: 15px;
+    }
+  }
+  

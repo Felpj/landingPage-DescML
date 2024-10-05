@@ -1,0 +1,73 @@
+/* src/components/CallToActionSection.css */
+
+.call-to-action-section {
+  background-color: var(--primary-color);
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.cta-headline {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cta-subheadline {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--black-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-hover-color);
+  transform: scale(1.05);
+}
+
+.cta-urgency {
+  margin-top: 30px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.cta-guarantee {
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.cta-guarantee-icon {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .call-to-action-section {
+    padding: 40px 15px;
+  }
+
+  .cta-headline {
+    font-size: 1.8rem;
+  }
+
+  .cta-subheadline {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+  }
+}

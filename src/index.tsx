@@ -1,19 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import { createRoot } from 'react-dom/client'; // Nova API de root do React 18
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { ConfigProvider } from 'antd';
+import ptBR from 'antd/lib/locale/pt_BR';
+import './index.css';
+import { ThemeProvider } from './theme/ThemeContext';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+// Obtém o contêiner onde o App será montado
+const container = document.getElementById('root');
+
+// Cria a root com a nova API do React 18
+const root = createRoot(container!); // O "!" garante que o container não é null no TypeScript
+
+// Renderiza o App com os provedores de contexto
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <ConfigProvider locale={ptBR}>
+        <App />
+      </ConfigProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
