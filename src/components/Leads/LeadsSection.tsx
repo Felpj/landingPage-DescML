@@ -10,7 +10,7 @@ const LeadsSection: React.FC = () => {
   const { colors } = useTheme();
 
   return (
-    <div className="leads-section" style={{ backgroundColor: colors.secondary, padding: '40px 20px', color: colors.text }}>
+    <div className="leads-section" style={{ backgroundColor: colors.background, padding: '40px 20px', color: colors.text }}>
       {/* Headline (Título Principal) */}
       <Title level={2} className="leads-title" style={{ color: colors.primary, textAlign: 'center', marginBottom: '20px' }}>
         Entre para o nosso grupo exclusivo e baixe o e-book com as melhores dicas para dominar as vendas online!

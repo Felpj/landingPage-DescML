@@ -20,9 +20,15 @@ const SocialProofSection: React.FC = () => {
         <Col xs={24} md={12} lg={8}>
           <Card bordered={false} style={{ backgroundColor: colors.black, color: colors.text }}>
             <Avatar size={64} src="/path/to/student1.jpg" alt="Foto do Aluno 1" />
-            <Title level={4} style={{ color: colors.primary, marginTop: '20px' }}>João Silva</Title>
+            <Title level={4} style={{ color: colors.primary, marginTop: '20px' }}>Debora Venceslau</Title>
             <Paragraph>
-              "Antes do curso, eu não conseguia vender de forma consistente no Mercado Livre. Após aplicar as estratégias ensinadas, minhas vendas aumentaram em 200%!"
+            "Boa tarde, pessoal! Passando aqui para agradecer ao @João
+              Eduardo. Tem dois meses que procurei alguma indicação aqui no
+              grupo para mentoria em marketplace. O João começou a me ajudar,
+              dando dicas valiosas, e no mês passado já fechei com quase o dobro
+              de vendas e faturamento em relação ao mês anterior. Então, se
+              alguém precisar, chamem ele! 🎉👏🏻 Na outra conta que tenho, os
+              resultados positivos também subiram 100%."
             </Paragraph>
           </Card>
         </Col>
@@ -47,7 +53,7 @@ const SocialProofSection: React.FC = () => {
       </Row>
 
       {/* Estatísticas de Sucesso */}
-      <Row gutter={[16, 16]} justify="center" style={{ marginTop: '40px' }}>
+      {/* <Row gutter={[16, 16]} justify="center" style={{ marginTop: '40px' }}>
         <Col xs={24} md={8}>
           <Card bordered={false} style={{ backgroundColor: colors.black, color: colors.text, textAlign: 'center' }}>
             <Statistic title="Alunos Formados" value={1000} valueStyle={{ color: colors.primary }} />
@@ -63,10 +69,10 @@ const SocialProofSection: React.FC = () => {
             <Statistic title="Satisfação dos Alunos" value="97%" valueStyle={{ color: colors.primary }} />
           </Card>
         </Col>
-      </Row>
+      </Row> */}
 
       {/* Logos de Empresas */}
-      <Row gutter={[16, 16]} justify="center" style={{ marginTop: '40px' }}>
+      {/* <Row gutter={[16, 16]} justify="center" style={{ marginTop: '40px' }}>
         <Col xs={12} md={6} lg={4} style={{ textAlign: 'center' }}>
           <img src="/path/to/company1.png" alt="Empresa 1" style={{ maxWidth: '100%' }} />
         </Col>
@@ -79,7 +85,7 @@ const SocialProofSection: React.FC = () => {
         <Col xs={12} md={6} lg={4} style={{ textAlign: 'center' }}>
           <img src="/path/to/company4.png" alt="Empresa 4" style={{ maxWidth: '100%' }} />
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 };

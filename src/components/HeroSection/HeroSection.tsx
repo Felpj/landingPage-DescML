@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
       <Button
         type="primary"
         className="hero-cta-button"
-        style={{ backgroundColor: colors.secondary, borderColor: colors.secondary, color: colors.black, padding: '15px 40px', fontSize: '1.2rem' }}
+        style={{ backgroundColor: colors.primary, borderColor: colors.secondary, color: colors.black, padding: '15px 40px', fontSize: '1.2rem' }}
         size="large"
       >
         Quero Destravar Minhas Vendas!
@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
           <div className="hero-benefit">
             <img src="/path/to/benefit-icon2.png" alt="Icone de Estratégias Avançadas" className="hero-benefit-icon" />
             <Paragraph className="hero-benefit-text">
-              <strong>Estratégias Avançadas:</strong> Aprenda táticas para dominar Mercado Livre e Amazon.
+              <strong>Estratégias Avançadas:</strong> Aprenda táticas para dominar Mercado Livre.
             </Paragraph>
           </div>
         </Col>
