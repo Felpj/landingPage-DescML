@@ -10,7 +10,7 @@ const SocialProofSection: React.FC = () => {
   const { colors } = useTheme();
 
   return (
-    <div style={{ backgroundColor: colors.secondary, padding: '40px 20px', color: colors.text }}>
+    <div style={{ backgroundColor: colors.background, padding: '40px 20px', color: colors.text }}>
       <Title level={2} style={{ color: colors.primary, textAlign: 'center', marginBottom: '40px' }}>
         Depoimentos e Prova Social
       </Title>
