@@ -10,7 +10,7 @@ const CallToActionSection: React.FC = () => {
   const { colors } = useTheme();
 
   return (
-    <div  className="call-to-action-section" style={{ backgroundColor: colors.primary, padding: '60px 20px', textAlign: 'center', color: colors.black }}>
+    <div  className="call-to-action-section" style={{ backgroundColor: colors.background, padding: '60px 20px', textAlign: 'center', color: colors.black }}>
       {/* Headline (Título Principal) */}
       <Title level={2} className="cta-headline" style={{ color: colors.black }}>
         Comece sua transformação agora!
